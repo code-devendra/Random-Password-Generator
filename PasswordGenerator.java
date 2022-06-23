@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PasswordGenerator {
     public static void main(String[] args){
-        // 1. make eight sets of words to choose from.
+        // 1. make sixteen sets of words to choose from.
 
         String[] wordList1 = {"~","!","^","*","?"};
         String[] wordList2 = {"a","b","c","d","e","f","g","h","i","j","k","l","m"};
@@ -41,7 +41,7 @@ public class PasswordGenerator {
         int sixteenLength = wordList16.length;
 
 
-        // 3. generate eight random numbers.
+        // 3. generate sixteen random numbers.
 
         int rand1 = (int) (Math.random() * oneLength);
         int rand2 = (int) (Math.random() * twoLength);
